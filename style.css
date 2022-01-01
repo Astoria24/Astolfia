@@ -1,0 +1,67 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.background {
+  background-color: darkgrey;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+}
+
+.title {
+  text-decoration: underline;
+  text-align: center;
+}
+.Bima {
+  font-style: italic;
+  color: black;
+  text-decoration: underline;
+}
+.Anwar {
+  color: black;
+  text-align: justify;
+  margin-right: 50px;
+}
+.domm {
+  color: whitesmoke;
+  margin-right: 80px;
+  font-size: 20px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.header {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  display: flex;
+}
+
+/* @media screen and (max-width: 992px) {
+  .background {
+    background-color: dimgray;
+  }
+
+  header {
+    display: none;
+    flex-direction: column;
+  }
+} */
+
+@media screen and (max-width: 600px) {
+  .background {
+    background-color: gainsboro;
+  }
+
+  .header {
+    display: none;
+  }
+  .ummar {
+  }
+}
